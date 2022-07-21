@@ -1,4 +1,5 @@
 from pyrogram import Client, filters 
+from pyrogram.types import inlineKeyboardMarkup,inlineKeyboardButton
 
 API_ID = "10460140" 
 API_HASH = "e6618cb334078f32d38cf25ded6f4839" 
