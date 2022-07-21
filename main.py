@@ -11,7 +11,7 @@ CINEMALOKHAM = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN
 )
-START_BUTTONS=[[
+'START_BUTTONS'=[[
   InlineKeyboardButton=("ＪＯＩＮ"),url="t.me/m4moviesmtech2")
 ]]
 
