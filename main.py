@@ -19,7 +19,20 @@ async def start_cmd(client,message):
     )
         
     print("START Command")                    
-                         
+  
+@CINEMALOKHAM.on_message(filters.command("about"))
+async def about_cmd(client,message):
+    await message.reply_video(   
+        video="https://telegra.ph/file/dd18bd700f5ff70381320.mp4",
+        caption="ON DEVELPOING PLZ WAIt "
+    )
+        
+    print("ABOT Command")                   
+
+
+
+
+
 print("BOT RUNNING")
 
 CINEMALOKHAM.run()
