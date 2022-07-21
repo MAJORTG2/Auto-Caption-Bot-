@@ -12,7 +12,7 @@ CINEMALOKHAM = Client(
     bot_token=BOT_TOKEN
 )
 START_BUTTONS=[[
-   InlineKeyboardButton=("ＪＯＩＮ"),url="t.me/m4moviesmtech2")
+   InlineKeyboardButton="ＪＯＩＮ",url="t.me/m4moviesmtech2")
 ]]
 
 
@@ -22,7 +22,7 @@ async def start_cmd(client,message):
         video="https://telegra.ph/file/dd18bd700f5ff70381320.mp4",
         caption="ON DEVELPOING PLZ WAIT"
         reply_markup=InlineKeyboardMarkup(START_BUTTONS)
-)
+   )
     
     
     
