@@ -27,9 +27,16 @@ async def about_cmd(client,message):
         caption="ON DEVELPOING PLZ WAIt "
     )
         
-    print("ABOT Command")                   
+    print("ABOUT Command")                   
 
-
+@CINEMALOKHAM.on_message(filters.command("help"))
+async def help_cmd(client,message):
+    await message.reply_video(   
+        video="https://telegra.ph/file/dd18bd700f5ff70381320.mp4",
+        caption="ON DEVELPOING PLZ WAIt "
+    )
+        
+    print("HELP Command")  
 
 
 
