@@ -1,5 +1,5 @@
 from pyrogram import Client, filters 
-from pyrogram.types import inlineKeyboardMarkup,inlineKeyboardButton
+from pyrogram.types import InlineKeyboardMarkup,InlineKeyboardButton
 
 API_ID = "10460140" 
 API_HASH = "e6618cb334078f32d38cf25ded6f4839" 
@@ -11,14 +11,21 @@ CINEMALOKHAM = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN
 )
+START_BUTTONS=[[
+  InlineKeyboardButton=("【ＪＯＩＮ】",url="t.me/m4moviesmtech2")
+]]
+
 
 @CINEMALOKHAM.on_message(filters.command("start"))
 async def start_cmd(client,message):
     await message.reply_video(   
         video="https://telegra.ph/file/dd18bd700f5ff70381320.mp4",
-        caption="ON DEVELPOING PLZ WAIt "
-    )
-        
+        caption="ON DEVELPOING PLZ WAIt"
+    reply_markup=InlineKeyboardMarkup(START_BUTTONS)
+)
+    
+    
+    
     print("START Command")                    
   
 @CINEMALOKHAM.on_message(filters.command("about"))
