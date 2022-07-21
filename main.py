@@ -21,7 +21,7 @@ async def start_cmd(client,message):
     await message.reply_video(   
         video="https://telegra.ph/file/dd18bd700f5ff70381320.mp4",
         caption="ON DEVELPOING PLZ WAIt"
-    reply_markup=InlineKeyboardMarkup(START_BUTTONS)
+        reply_markup=InlineKeyboardMarkup(START_BUTTONS)
 )
     
     
