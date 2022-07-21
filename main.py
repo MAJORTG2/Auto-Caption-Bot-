@@ -33,7 +33,7 @@ async def about_cmd(client,message):
 async def help_cmd(client,message):
     await message.reply_sticker(   
         sticker="CAACAgQAAxkBAAEFVVRi2TegK1SnTzNwa996BsSEvzHMggACAxcAAqbxcR7LDHy6DeuDxCkE",
-        caption="ON DEVELPOING PLZ WAIt "
+        
     )
         
     print("HELP Command")  
