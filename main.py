@@ -12,7 +12,7 @@ CINEMALOKHAM = Client(
     bot_token=BOT_TOKEN
 )
 START_BUTTONS = [[
-   InlineKeyboardButton=("ＪＯＩＮ"),url="t.me/m4moviesmtech2")
+   InlineKeyboardButton=("ＪＯＩＮ",url="t.me/m4moviesmtech2")
 ]]
 
 
