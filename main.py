@@ -9,7 +9,7 @@ except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
 try: custom_caption = os.environ.get("custom_caption", "`{file_name}`")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
-AutoCaptionBotV1 = pyrogram.Client(
+AutoCaptionBotV = pyrogram.Client(
    name="AutoCaptionBotV", api_id=app_id, api_hash=api_hash, bot_token=bot_token)
 
 start_message = """
