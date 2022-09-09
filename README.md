@@ -12,7 +12,7 @@ This Repo is Telegram Channel Code to help build a bot that automatically adds c
 
   </a>
   
-  <a href="https://github.com/MAJORTG2/TRUmBOTS-V1/fork">
+  <a href="https://github.com/MAJORTG2/Auto-Captiin-Bot-/fork">
     <img src="https://img.shields.io/github/forks/MAJORTG2/TRUmBOTS-V1?label=Fork&style=social">
 
   </a>  
