@@ -1,0 +1,43 @@
+{
+    "name": "AutoCaptionBot-V",
+    "description": "Auto Caption BoT V @sorry username out",
+    "logo": "https://graph.org/file/884e0925b5eb8d9dfa171.jpg",
+    "keywords": [
+        "Private",
+        "Auto",
+        "Caption",
+        "Bot"
+    ],
+    "website": "https://t.me/movie_time_botonly",
+    "repository": "https://github.com/MAJORTG2/Auto-Caption-Bot-",
+    "success_url": "https://github.com/MAJORTG2/Auto-Caption-Bot-",
+    "env": {
+        "app_id": {
+            "description": "Your APP ID From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "value": ""
+        },
+        "api_hash": {
+            "description": "Your API Hash From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "value": ""
+        },
+        "bot_token": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""        
+        },
+        "custom_caption": {
+            "description": "Caption Text.  use {file_name} to get original file name",
+            "required": false       
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
