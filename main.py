@@ -77,9 +77,9 @@ def start_buttons(bot, update):
    pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
    ],[
    pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
-   ]],[
+   ]],[[
    pyrogram.types.InlineKeyboardButton("SOURCE CODE", url="https://github.com/MAJORTG2/Auto-Caption-Bot-")
-   ]
+   ]]
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
 def about_buttons(bot, update):
